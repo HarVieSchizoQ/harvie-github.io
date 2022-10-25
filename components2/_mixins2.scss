@@ -1,0 +1,8 @@
+@use '../custom' as*;
+
+@mixin navColor{
+    background: rgb(177, 31, 177);
+}
+@mixin backImage{
+    background-image: url('back2.webp');
+}

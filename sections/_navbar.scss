@@ -1,0 +1,151 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+//INDEX.HTML
+
+.menu{
+    @include gradient;
+    font-weight: 900;   
+    box-shadow: 10px 10px 5px #434242b3;
+    
+
+}
+li{
+
+   padding-left: 5px;
+    
+}
+a{
+    color: white!important;
+    text-transform: capitalize;
+    
+    
+} 
+img#logo{
+    width: 6rem;
+    margin-top: -20px;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+
+
+//INDEX3.HTML
+/*
+.menu{
+    background-color: #040720!important;
+    height: 4.5rem;
+}
+a.navbar-brand{
+    color: white;
+    font-style: serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+
+    span{
+         color: blue;
+    }
+}
+li{
+    font-size: 1.0rem;
+    padding: 10px;
+    
+}
+a{
+    color: white!important;
+    
+}
+button.rounded-pill{
+    background-color: #34eb95;
+    color: white!important;
+    margin-top: 7px;
+    margin-right: 50px;
+} */
+
+/*
+//INDEX4.HTML
+
+body{
+    font-family: cursive;
+}
+.menu{
+    background: $black;
+    height: 5.0rem;
+    
+}
+a.navbar-brand{
+    color: $white;
+    margin-left: -10px;
+
+    img{
+        width: 5.0rem;
+        height: 5.0rem; 
+        padding: 0px;
+        margin-left: 0px;
+        
+    }
+}
+li{
+    font-size: 1.0rem;
+    display: flex;
+    align-items: end;
+    padding-top: 2px;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+    img{
+       width: 50px;
+    }
+    a{
+       color: white!important;
+       
+    }
+    .button1{
+        width: 70px;
+        height: 3.0rem;
+        margin-right: 13px;
+    }
+    .button1:hover{
+        background-color: aqua;
+        color: black;
+        
+    }
+    .button2{
+        width: 130px;
+        height: 3.0rem;
+    }
+    .button2:hover{
+        background-color: aqua;
+        color: black
+    } */
+
+    //INDEX2.HTML
+    /*
+    .menu{
+        @include gradient;
+        height: 4.5rem;
+        font-weight: 500;
+        font-family: monospace;
+        box-shadow: 10px 10px 5px #434242b3;
+    }
+    .navbar-brand{
+        font-size: 2.0rem;
+    }
+    #logo{
+        width: 5rem;    
+    }
+    li{
+        font-size: 1.3rem;
+        padding-left: 2.5rem;
+    }
+    #number{
+        position: relative;
+        font-size: 1.2rem;
+        right: 20px;
+        font-weight: 800;
+    }
+} */
+
+    
+

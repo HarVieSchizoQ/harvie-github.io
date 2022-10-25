@@ -1,0 +1,144 @@
+@use '../custom' as*;
+@use '../components2/mixins2' as*;
+
+
+//INDEX5.HTML
+/*
+.menu{
+    height: 7rem;
+    
+    
+    
+}
+
+a.navbar-brand{
+    font-size: 2.5rem;
+    margin-left: 90px;  
+    display: flex;
+    align-items: center;
+    color: white;
+   
+}
+img{
+    width: 10rem;
+    position: absolute;
+    top: -25px;  
+    left: 111px;
+    
+    
+}
+.flexbox-container{
+    border: 0px solid;
+    width: 5rem;
+    height: 5rem; 
+}
+#navbarNav{
+    font-size: 1.0rem;
+
+    ul{
+        padding-right: 100px;
+        color: white!important;
+    }
+    li{
+        padding-left: 40px;
+        
+        a.nav-link{
+            color: white;
+            font-weight: 500;
+        }                       
+    }
+}
+span#icon{
+    display: table;
+
+    i{
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        left: 50px;
+    }
+}
+span#icon2{
+    display: table;
+    
+
+    i{
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+        left: 80px;
+        top: 12px;
+    }
+        a.nav-link{
+            position: relative;
+            left: 30px;
+            display: table-cell;
+            vertical-align: middle;
+            top: -10px;
+        }
+   
+}
+#login{
+    position: relative;
+    left: 100px;
+}
+.nav-link.dropdown-toggle{
+    color: white;
+} */
+
+
+//INDEX6.HTML   
+ 
+nav{
+    
+    height: 5rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+#logo{
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-left: 30px;
+    cursor: pointer;    
+}
+.navbar-brand{
+    position: relative;
+    left: 10px;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: white;
+    font-family: sans-serif;
+}
+a.nav-link.dropdown-toggle{
+    color: white;
+    font-weight: 1000;
+}
+li{
+    padding: 5px;  
+}
+button.rounded-pill{
+    margin-left: 15px;
+    border-color: white;
+    color: black;
+    background-color: #f80904;
+    font-weight: 900;
+    margin-right: 30px;
+
+    &:hover{
+        color: white;
+        background-color: #00FF00;
+        
+    }
+}
+#contact{
+    margin-right: 10px;
+    color: white;
+    font-weight: 800;
+}
+i{
+    color: white;
+    cursor: pointer;
+}

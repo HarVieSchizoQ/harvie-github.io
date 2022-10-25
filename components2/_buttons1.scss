@@ -1,0 +1,47 @@
+@use '../custom' as *; 
+@use '../components2/mixins2' as*;
+
+//INDEX5.HTML
+/*
+.button-join{
+    
+
+    button{
+        position: relative;
+        top: 6px;
+        display: flex;
+        align-content: center;
+        left: 107px;
+        background-color: #00FF00;
+        border-width: 0.1px;
+        border-color: white;
+        font-weight: 500;
+    
+        &:hover{
+            background-color: rgb(255, 2, 0);
+            color: white;
+        }
+    }
+} */
+
+//INDEX6.HMTL
+.button2{
+    
+
+    button{
+        position: absolute;
+        top: 61%;
+        left: 42%;
+        text-transform: uppercase;
+        font-weight: 700;
+        background-color: #f80904;
+        border-color: white;
+        width: 8rem;
+        height: 2rem;
+
+        &:hover{
+            color: white;
+            background-color: #00ff00;
+        }
+    }
+}

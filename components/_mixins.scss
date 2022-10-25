@@ -1,0 +1,17 @@
+@use '../custom' as *;
+
+@mixin gradient{
+    background: linear-gradient(to right,rgba($primary,0.95),rgba($secondary, 0.95));
+}
+
+@mixin index2{
+    background: black;
+}
+
+//ABSOLUTE CENTER
+@mixin absolutepositionofplaybutton{
+    position: absolute ;
+    top: 55%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}

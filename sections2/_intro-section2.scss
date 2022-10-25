@@ -1,0 +1,30 @@
+@use '../custom' as*;
+
+
+    
+.row{
+        color: white;
+        border: 1px solid;
+        text-align: center;
+        margin-top: 20%;
+               
+}
+.col1{
+    align-items: center;
+    padding: 3rem;
+    border: 2px solid;
+    background-color: aqua;
+    position: relative;
+    left: 40%;
+    
+} 
+.col2{
+    align-items: center;
+    padding: 3rem;
+    border: 2px solid;
+    background-color: aqua;
+    position: relative;
+    top: 60%;
+    left: 40%;
+}
+    

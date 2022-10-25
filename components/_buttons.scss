@@ -1,0 +1,122 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+//INDEX.HTML
+
+.btn-rounded{
+    position: relative;
+    padding: 1.0rem 3.5rem 1.0rem 1.5rem; 
+    font-weight: bold;
+    border-color: white;
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;  
+
+    span{
+        position: absolute;
+        background-color: $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        right: 6px;
+        top: 15%;
+        border-radius: 50%;
+        
+
+        i{
+            color:white;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
+            transform: rotate(100deg);
+        }
+    }
+    &:hover{
+        @include gradient;
+        color: white;
+
+        span{
+            background-color: $black;
+        }
+    }
+    
+}
+#icon2{
+    transform: rotate(1deg);
+}
+
+//INTRO SECTION
+
+.rounded.pill.btn-rounded.mine{
+    width: 15%;
+    height: 58px;
+    position: relative;
+    
+    font-weight: bold;
+    border-color: white;
+   
+    border: 1 solid;
+    padding-bottom: 25px;
+    
+    .span2{
+        position: absolute;
+        background-color:  $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 5px;
+        top: 7px;
+        right: 5px;
+        
+        &:hover{
+            background-color: black;
+        }
+    
+    i{
+        position: relative;
+        color: white;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        transform: rotate(100deg);
+        
+    }
+    }
+    
+} 
+/*
+//INDEX2.HTML
+button{
+    width: 11.0rem;
+    height: 3rem;
+    border-width: 1px;
+    border-color: white;
+    &:hover{
+        @include gradient;
+        
+        span{
+                background-color: $black;
+            }
+        }
+    }
+    
+    
+    span{
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: $primary;
+        border-radius: 50%;
+        display: inline;
+        top: 15px;
+        right: 158px; 
+
+       
+        
+        i{
+            position: relative;
+            left: 1px;
+            font-size: 1.5rem;
+            top: 9px;
+            color: $white;  
+            
+        }
+    }
+#button2{
+    width: 12.1rem;
+} */
